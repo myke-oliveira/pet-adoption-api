@@ -1,0 +1,21 @@
+{
+  "pylint.args": [
+    "--rcfile=.pylintrc",
+    "--disabled=E0015"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true,
+    "**/*.pytest_cache": true
+  }
+}
