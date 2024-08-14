@@ -12,6 +12,7 @@ def test_list_pets():
     print(f"{response=}")
 
 
+@pytest.mark.skip(reason="Interation with database.")
 def test_delete_pets():
     name = "belinha"
     repo = PetsRepository(db_connection_handler)
